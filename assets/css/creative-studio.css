@@ -11934,18 +11934,25 @@ section.has-bg-imgg {
 }
 
 section.has-bg-imgg:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-image: url(../imgs/ab.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 section.has-bg-imgg.bg-img-1:after {
