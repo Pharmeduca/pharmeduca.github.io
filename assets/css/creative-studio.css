@@ -11928,7 +11928,7 @@ section.has-bg-img.bg-img-1:after {
 }
 
 section.has-bg-imgg {
-  background: rgba(60, 60, 60, 0.80);
+  background: rgba(125, 103, 122, 0.8);
   position: relative;
   color: #fff;
 }
@@ -11958,6 +11958,39 @@ section.has-bg-imgg:after {
 
 section.has-bg-imgg.bg-img-1:after {
   background-image: url(../imgs/ab.jpg);
+}
+
+section.has-bg-imggg {
+  background: rgba(45, 44, 44, 0.8);
+  position: relative;
+  color: #fff;
+}
+
+section.has-bg-imggg:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../imgs/vb.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+section.has-bg-imggg.bg-img-1:after {
+  background-image: url(../imgs/vb.jpg);
 }
 
 section.has-bg-img.bg-img-2:after {
