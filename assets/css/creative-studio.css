@@ -11889,7 +11889,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #fbfcfc;
+  background-color: #f3c252;
 }
 
 section.py-sm,
